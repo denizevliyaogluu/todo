@@ -11,13 +11,11 @@ class Category extends Model
 
     protected $table = 'categories';
 
-    // Hangi sütunların doldurulabileceğini belirler
     protected $fillable = [
         'name',
         'color',
     ];
 
-    // İlişkiler
     public function getTodos()
     {
         return $this->belongsToMany(Todo::class, 'todo_category');
