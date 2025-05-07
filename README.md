@@ -23,12 +23,8 @@ https://documenter.getpostman.com/view/15997080/2sB2j7eVos
 
 ### Front-end
 - React 18+
-- Redux Toolkit
-- React Router v6+
-- React Hook Form + Yup
 - Axios
 - Tailwind CSS
-- Toast bildirimleri
 
 ---
 
